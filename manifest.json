@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "add NFU curricolum to google calander",
+  "version": "1.0",
+
+  "description": "Extension for transfer NFU curricolum to google calander.",
+
+  "icons": {
+    "48": "icons/icon-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["https://ecare.nfu.edu.tw/aaiqry/chooseconfirm"],
+      "js": ["button.js", "Calander.js"]
+    }
+  ]
+}
