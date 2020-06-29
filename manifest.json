@@ -12,7 +12,7 @@
   "content_scripts": [
     {
       "matches": ["https://ecare.nfu.edu.tw/aaiqry/chooseconfirm"],
-      "js": ["button.js", "Calander.js"]
+      "js": ["button.js", "calander.js"]
     }
   ]
 }
