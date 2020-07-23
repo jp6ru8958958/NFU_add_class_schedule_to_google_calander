@@ -1,1 +1,1 @@
-# add NFU curricolum to google calander
+# add NFU curricolum to google calender
